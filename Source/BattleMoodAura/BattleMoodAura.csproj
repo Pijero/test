@@ -4,6 +4,9 @@
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Nullable>disable</Nullable>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AssemblyName>BattleMoodAura</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
