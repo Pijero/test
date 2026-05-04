@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Buff: Low -->
+  <HediffDef>
+    <defName>BattleMood_Buff_Low</defName>
+    <label>士気高揚（弱）</label>
+    <description>信頼できる仲間が近くにおり、気力がわずかに高まっている。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>士気高揚（弱）</label>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.03</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Buff: Mid -->
+  <HediffDef>
+    <defName>BattleMood_Buff_Mid</defName>
+    <label>士気高揚（中）</label>
+    <description>周囲の仲間との連携が高まり、戦闘効率が向上している。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>士気高揚（中）</label>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>0.06</offset></li>
+          <li><capacity>Moving</capacity><offset>0.05</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Buff: High -->
+  <HediffDef>
+    <defName>BattleMood_Buff_High</defName>
+    <label>士気高揚（強）</label>
+    <description>信頼し合う仲間に囲まれ、戦意が大きく高まっている。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>士気高揚（強）</label>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>0.10</offset></li>
+          <li><capacity>Moving</capacity><offset>0.08</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Debuff: Low -->
+  <HediffDef>
+    <defName>BattleMood_Debuff_Low</defName>
+    <label>恐慌（弱）</label>
+    <description>不仲な仲間の存在がわずかに集中を乱している。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>恐慌（弱）</label>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>-0.03</offset></li>
+          <li><capacity>Moving</capacity><offset>-0.02</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Debuff: Mid -->
+  <HediffDef>
+    <defName>BattleMood_Debuff_Mid</defName>
+    <label>恐慌（中）</label>
+    <description>周囲の人間関係の悪さで判断力が鈍っている。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>恐慌（中）</label>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>-0.06</offset></li>
+          <li><capacity>Moving</capacity><offset>-0.04</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Debuff: High -->
+  <HediffDef>
+    <defName>BattleMood_Debuff_High</defName>
+    <label>恐慌（強）</label>
+    <description>敵だけでなく味方への不信感も強く、戦闘能力が大きく低下している。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>恐慌（強）</label>
+        <capMods>
+          <li><capacity>Manipulation</capacity><offset>-0.10</offset></li>
+          <li><capacity>Moving</capacity><offset>-0.08</offset></li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

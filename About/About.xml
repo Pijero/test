@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Battle Mood Aura</name>
+  <author>Codex</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>codex.battlemoodaura</packageId>
+  <description>戦闘時に近くの味方との関係に応じて、士気高揚または恐慌の段階制バフ/デバフを付与します。人数・距離・関係値・しきい値・更新間隔は設定で変更できます。</description>
+</ModMetaData>
